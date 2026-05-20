@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Header section*/
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.navber a
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navber a:hover,
+.navber a.active
+{
+    color: blueviolet;
+}
+/*Home section*/
+.home
+{
+    height: 100vh;
+    background: url(./blog/blog3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 5%;
+    border-radius: 20px;
+}
+.home-content
+{
+    max-width: 600px;
+}
+.home-content h5
+{
+    color: white;
+}
+.home-content h1
+{
+    color: white;
+    font-size: 60px;
+}
+.home-content .btn-box
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 60%;
+    font-size: 25px;
+}
+.btn-box
+{
+    display: flex;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+}
+.btn-box a
+{
+    color: rgb(255, 255, 255);
+}
+/*Blog section*/
+#blog
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.blog h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+.blog img{
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.blog img:hover
+{
+    opacity: .7;
+}
+/*Menu section*/
+#cafe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #887d7d;
+    border-radius: 20px;
+}
+#cafe h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+}
+.cafe
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.cafe img
+{
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    border-radius: 10px;
+}
+ .cafe img:hover
+{
+    opacity: .7;
+}
