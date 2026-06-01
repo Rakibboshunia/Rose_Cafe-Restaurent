@@ -3,6 +3,7 @@ import { ChevronRight, Calendar } from 'lucide-react';
 
 export default function Hero() {
   return (
+    
     <section id="home" className="hero-section">
       <div className="hero-content animate-fade-in-up">
         <div className="hero-rating-badge">
