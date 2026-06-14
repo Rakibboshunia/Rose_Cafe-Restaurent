@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Coffee, UtensilsCrossed, Sparkles } from 'lucide-react';
 
