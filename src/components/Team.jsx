@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Facebook, Twitter, Instagram } from 'lucide-react';
 
@@ -10,6 +9,7 @@ const TEAM_MEMBERS = [
     image: '/team/team1.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 2,
     name: 'Samantha Rose',
@@ -17,6 +17,7 @@ const TEAM_MEMBERS = [
     image: '/team/team2.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 3,
     name: 'Ethan Hunt',
@@ -24,6 +25,7 @@ const TEAM_MEMBERS = [
     image: '/team/team3.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 4,
     name: 'Maya Lin',
@@ -31,6 +33,7 @@ const TEAM_MEMBERS = [
     image: '/team/team4.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 5,
     name: 'Oliver Queen',
@@ -38,6 +41,7 @@ const TEAM_MEMBERS = [
     image: '/team/team5.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 6,
     name: 'Aria Stark',
@@ -45,6 +49,7 @@ const TEAM_MEMBERS = [
     image: '/team/team6.jpg',
     socials: { facebook: '#', twitter: '#', instagram: '#' }
   },
+  
   {
     id: 7,
     name: 'Lucas Scott',
