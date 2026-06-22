@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ShoppingCart, Coffee } from 'lucide-react';
 
@@ -14,8 +13,7 @@ export default function Navbar({ cartCount, onCartClick }) {
       } else {
         setIsScrolled(false);
       }
-
-      // Determine active section based on scroll position
+      
       const sections = ['home', 'services', 'menu', 'team', 'reservation', 'blog', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
