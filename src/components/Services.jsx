@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Coffee, UtensilsCrossed, Sparkles } from 'lucide-react';
 
@@ -9,6 +10,7 @@ const SERVICES_DATA = [
     description: 'We source high-quality organic beans globally and roast them locally. Enjoy pour-overs, nitro cold brews, and classic espressos crafted by master baristas.',
     icon: <Coffee size={24} />
   },
+  
   {
     id: 2,
     title: 'Fine Gourmet Foods',
@@ -16,6 +18,7 @@ const SERVICES_DATA = [
     description: 'Indulge in freshly baked pastries, sourdough sandwiches, wood-fired pizzas, and gourmet burgers prepared daily with local organic ingredients.',
     icon: <UtensilsCrossed size={24} />
   },
+  
   {
     id: 3,
     title: 'Private Event Catering',
