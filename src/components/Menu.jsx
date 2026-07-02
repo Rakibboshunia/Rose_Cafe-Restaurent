@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Search, Plus, Star } from 'lucide-react';
 
@@ -12,6 +13,7 @@ const MENU_ITEMS = [
     rating: 4.8,
     reviews: 124
   },
+  
   {
     id: 'gt',
     name: 'Green Tea',
@@ -22,6 +24,7 @@ const MENU_ITEMS = [
     rating: 4.6,
     reviews: 85
   },
+  
   {
     id: 'b',
     name: 'Gourmet Burger',
@@ -32,6 +35,7 @@ const MENU_ITEMS = [
     rating: 4.9,
     reviews: 242
   },
+  
   {
     id: 'p',
     name: 'Margherita Pizza',
@@ -42,6 +46,7 @@ const MENU_ITEMS = [
     rating: 4.7,
     reviews: 186
   },
+  
   {
     id: 'hd',
     name: 'Classic Hot Dog',
@@ -52,6 +57,7 @@ const MENU_ITEMS = [
     rating: 4.5,
     reviews: 94
   },
+  
   {
     id: 'ff',
     name: 'French Fries',
@@ -62,6 +68,7 @@ const MENU_ITEMS = [
     rating: 4.6,
     reviews: 153
   },
+  
   {
     id: 'ck',
     name: 'Crispy Fried Chicken',
@@ -72,6 +79,7 @@ const MENU_ITEMS = [
     rating: 4.8,
     reviews: 218
   },
+  
   {
     id: 'sd',
     name: 'Special Soft Drinks',
